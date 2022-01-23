@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(32, 26, 26);
+}
+
+.cardd{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    margin-top: 10rem;
+    margin-right: 30px;
+
+}
