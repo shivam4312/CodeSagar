@@ -1,3 +1,5 @@
+/* Global css */
+
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Pacifico&family=Roboto:ital,wght@0,400;1,300;1,500&display=swap');
 *{
     margin: 0;
@@ -9,6 +11,8 @@ body{
     height: 100%;
     width: 100%;
 }
+
+/* home css */
 nav{
     background-color: #1ba94c;
 }
@@ -35,7 +39,33 @@ nav{
     margin-right: 30px;
     margin-left: 30px;
 }
-.btn{
+.home-btn{
     background-color: #1ba94c;
     color: #ffffff;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit ;
+}
+
+
+/* cp Tracker css */
+.card-img-top{
+    width: 200px;
+    height:200px;
+    border-radius:50%;
+    padding: 20px 20px 20px 20px;
+}
+.card-site{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(116, 211, 92);
+}
+.cp-btn:hover{
+    background-color: rgb(11, 11, 146);
+}
+.site-container{
+    margin-top: 85px;
 }
