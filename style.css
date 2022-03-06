@@ -34,7 +34,7 @@ nav{
     justify-content: center;
 }
 
-.card{
+.card1{
     margin-top: 10rem;
     margin-right: 30px;
     margin-left: 30px;
@@ -69,4 +69,83 @@ a, a:hover, a:focus, a:active {
 }
 .site-container{
     margin-top: 85px;
+}
+
+
+/* dynamic content cp traker page */
+
+.site-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 40px;
+    font-size: 50px;
+    font-weight: 600px;
+    color: #f3f7f7;
+}
+.site-btn{
+    margin-left: 3px;
+    padding: 10px 93px 10px 93px;
+    background: #3d5252;
+}
+.site-btn:hover{
+    background-color: #dfec20;
+    color: black;
+}
+.cp-click-link:hover{
+    color: black;
+}
+.cp-click-link{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.site-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.siteBodyChild{
+    background: #1ba94c;
+}
+
+/* Dynamic content feteching cards  */
+
+.content-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.cp-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    margin: 0px 0px 0px 0px;
+    color: #ffffff;
+}
+.visit-btn{
+    background-color: crimson;
+    /* margin-top: 2px; */
+    margin-bottom: 8px;
+}
+.visit-btn:hover{
+    background: rgb(240, 92, 92);
+}
+
+.contentBodyChild{
+    background: #92928e;
+}
+.cp-click-link, .cp-click-linka:hover, .cp-click-link:focus, .cp-click-link:active {
+    text-decoration: none;
+    color: inherit ;
+}
+.contest-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
