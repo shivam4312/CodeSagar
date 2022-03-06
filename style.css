@@ -14,7 +14,7 @@ body{
 
 /* home css */
 nav{
-    background-color: #1ba94c;
+    background-color: #1c095c;
 }
 .navbar-brand{
     color: #ffffff;
@@ -29,7 +29,7 @@ nav{
 }
 .cardd{
     padding-top: 50px;
-    display: flex;
+     display: flex; 
     align-items: center;
     justify-content: center;
 }
@@ -40,13 +40,14 @@ nav{
     margin-left: 30px;
 }
 .home-btn{
-    background-color: #1ba94c;
+    background-color: #1c095c;
     color: #ffffff;
 }
 
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit ;
+   
 }
 
 
