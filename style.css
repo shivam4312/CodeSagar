@@ -1,150 +1,332 @@
-/* Global css */
-
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Pacifico&family=Roboto:ital,wght@0,400;1,300;1,500&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Roboto;
-}
-body{
-    background-color: #f3f7f7;
-    height: 100%;
-    width: 100%;
-}
-
-/* home css */
-nav{
-    background-color: #1ba94c;
-}
-.navbar-brand{
-    color: #ffffff;
-    font-family: Caveat;
-    font-weight: 700;
-    font-size: 29px;
-}
-.nav-link{
-    color: #ffffff;
-    font-family:Roboto,sans-serif;
-    font-weight: 600;
-}
-.cardd{
-    padding-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.card1{
-    margin-top: 10rem;
-    margin-right: 30px;
-    margin-left: 30px;
-}
-.home-btn{
-    background-color: #1ba94c;
-    color: #ffffff;
-}
-
-a, a:hover, a:focus, a:active {
-    text-decoration: none;
-    color: inherit ;
-}
 
 
-/* cp Tracker css */
-.card-img-top{
-    width: 200px;
-    height:200px;
-    border-radius:50%;
-    padding: 20px 20px 20px 20px;
+.Navbar{
+  display: flex;
+  justify-content: left;
+  text-align: left; 
+  background-color: green;
+  height: 100%;
 }
-.card-site{
+
+h2{
+   
+  font-style: italic;
+  color: white;
+}
+
+div{
+  display: flex;
+  justify-content: center;
+}
+.saumya{
+  display: flex;
+  justify-content: center;
+  text-align: center; 
+  width: 200px; 
+  margin: 25px;
+  padding: 5px;
+  padding-left: 25px;
+  border-radius: 20px;
+  background-color: green;
+  border-color:black;
+  font-size: 10px;
+
+}button {
+  display:flex ;
+  justify-content: center;
+  align-self: center;
+  background-color: greenyellow;
+  border: none;
+  border-radius: 20px;
+  padding: 15px 32px;
+  margin-top: 100px;
+  margin-right: 60px;
+}
+
+ 
+
+.shivani{
+
     display: flex;
     justify-content: center;
-    align-items: center;
-    background: rgb(116, 211, 92);
-}
-.cp-btn:hover{
-    background-color: rgb(11, 11, 146);
-}
-.site-container{
-    margin-top: 85px;
+    text-align: center; 
+    width: 200px; 
+    margin: 25px;
+    padding: 5px;
+    padding-left: 25px;
+    border-radius: 20px;
+    background-color: green;
+    border: black;
+    font-size: 10px;
+  
 }
 
-
-/* dynamic content cp traker page */
-
-.site-title{
+  
+  .seema{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 40px 40px;
-    font-size: 50px;
-    font-weight: 600px;
-    color: #f3f7f7;
-}
-.site-btn{
-    margin-left: 3px;
-    padding: 10px 93px 10px 93px;
-    background: #3d5252;
-}
-.site-btn:hover{
-    background-color: #dfec20;
-    color: black;
-}
-.cp-click-link:hover{
-    color: black;
-}
-.cp-click-link{
-    color: rgb(255, 255, 255);
-    font-weight: 600;
-}
-.site-body{
+    text-align: center;
+    width: 200px; 
+    margin: 25px;
+    padding: 5px;
+    padding-left: 25px;
+    border-radius: 20px;
+    background-color: green;
+    border: black;
+    font-size: 10px;
+  }
+ 
+  
+  .shivam{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 30px;
+    text-align: center;
+    width: 200px; 
+    margin: 25px;
+    padding: 5px;
+    padding-left: 25px;
+    border-radius: 20px;
+    background-color: green;
+    border: black;
+    font-size: 10px;
+
+  }
+ 
+  
+div{
+  display: flex;
+  justify-content: center;
 }
-.siteBodyChild{
-    background: #1ba94c;
+  .company{
+    display: flex;
+    justify-content: centre;
+    text-align: centre; 
+    width: 200px; 
+    margin: 25px;
+    padding: 5px;
+    padding-left: 30px;
+    border-radius: 20px;
+    background-color: green;
+    border-color:black;
+    font-size: 10px;
+  }
+
+  .company h1{
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }
+
+    
+  .companyone{
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    width: 200px; 
+    margin: 25px;
+    padding: 5px;
+    padding-left: 25px;
+    border-radius: 20px;
+    background-color: green;
+    border-color:black;
+    font-size: 10px;
+  }
+
+  .companyone h1{
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }
+
+ 
+  .companytwo{
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    width: 200px; 
+    margin: 25px;
+    padding: 5px;
+    padding-left: 25px;
+    border-radius: 20px;
+    background-color: green;
+    border-color:black;
+    font-size: 10px;
+  }
+
+  .companytwo h1{
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }
+
+  
+  .companythree{
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    width: 200px; 
+    margin: 25px;
+    padding: 5px;
+    padding-left: 25px;
+    border-radius: 20px;
+    background-color: green;
+    border-color:black;
+    font-size: 10px;
+  }
+  
+  
+    
+  div{
+    display: flex;
+    justify-content: center;
+  }
+  .companyfive{
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    width: 200px; 
+    margin: 25px;
+    padding: 5px;
+    padding-left: 25px;
+    border-radius: 20px;
+    background-color: green;
+    border-color:black;
+    font-size: 10px;
+  }
+ 
+  .companysix{
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    width: 200px; 
+    margin: 25px;
+    padding: 5px;
+    padding-left: 25px;
+    border-radius: 20px;
+    background-color: green;
+    border-color:black;
+    font-size: 10px;
+  }
+
+  .companysix h1{
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }
+
+ 
+  .companyseven{
+    display: flex;
+    justify-content: center;
+    width: 200px; 
+    margin: 25px;
+    padding: 5px;
+    padding-left: 25px;
+    border-radius: 20px;
+    background-color: green;
+    border-color:black;
+    font-size: 10px;
+  }
+
+  .companyseven h1{
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }
+
+  
+  .companyeight{
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    width: 200px; 
+    margin: 25px;
+    padding: 5px;
+    padding-left: 25px;
+    border-radius: 20px;
+    background-color: green;
+    border-color:black;
+    font-size: 10px;
+  }
+
+  .companyeight h1{
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }
+
+  
+  
+  div{
+    display: flex;
+    justify-content: center;
+  }
+  .pragya{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 200px; 
+    margin: 25px;
+    padding: 5px;
+    padding-left: 25px;
+    border-radius: 20px;
+    background-color: green;
+    border: black;
+    font-size: 10px;
+
+  }
+
+  .pragya h1{
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }
+
+ 
+.companyfour{
+  display: flex;
+  justify-content: center;
+  text-align: center; 
+  width: 200px; 
+  margin: 25px;
+  padding: 5px;
+  padding-left: 25px;
+  border-radius: 20px;
+  background-color: green;
+  border-color:black;
+  font-size: 10px;
 }
 
-/* Dynamic content feteching cards  */
-
-.content-title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 800;
-    margin-top: 10px;
-}
-.cp-text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 500;
-    margin: 0px 0px 0px 0px;
-    color: #ffffff;
-}
-.visit-btn{
-    background-color: crimson;
-    /* margin-top: 2px; */
-    margin-bottom: 8px;
-}
-.visit-btn:hover{
-    background: rgb(240, 92, 92);
+.companyfour h1{
+  padding-left: 50px;
+  padding-bottom: 50px;
 }
 
-.contentBodyChild{
-    background: #92928e;
+
+.companynine{
+  display: flex;
+  justify-content: center;
+  text-align: center; 
+  width: 200px; 
+  margin: 25px;
+  padding: 5px;
+  padding-left: 25px;
+  border-radius: 20px;
+  background-color: green;
+  border-color:black;
+  font-size: 10px;
 }
-.cp-click-link, .cp-click-linka:hover, .cp-click-link:focus, .cp-click-link:active {
-    text-decoration: none;
-    color: inherit ;
+
+.companyten{
+  display: flex;
+  justify-content: center;
+  text-align: center; 
+  width: 200px; 
+  margin: 25px;
+  padding: 5px;
+  padding-left: 25px;
+  border-radius: 20px;
+  background-color:green;
+  border-color:black;
+  font-size: 10px;
+  image-resolution: 10px;
 }
-.contest-info{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+
+.companyten
+ h1{
+  padding-left: 50px;
+  padding-bottom: 50px;
 }
