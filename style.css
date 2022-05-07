@@ -14,7 +14,7 @@ body{
 
 /* home css */
 nav{
-    background-color: #1c095c;
+  background-color: #1ba94c;
 }
 .navbar-brand{
     color: #ffffff;
@@ -40,7 +40,7 @@ nav{
     margin-left: 30px;
 }
 .home-btn{
-    background-color: #1c095c;
+  background-color: #1ba94c;
     color: #ffffff;
 }
 
