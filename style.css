@@ -169,3 +169,37 @@ a, a:hover, a:focus, a:active {
 .site-job-cont{
     margin-top: 10px;
 }
+
+/* resourse page css */
+
+#accordionFlushExample{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.accordion-button{
+    /* background-color: #1ba94c;
+    color: #ffffff; */
+    margin-top: 5px;
+    box-shadow:3px 3px rgba(122, 118, 118, 0.4);
+    
+}
+.card-img-left{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+@media (max-width: 500px) {
+    #accordionFlushExample{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
+    }
+}
